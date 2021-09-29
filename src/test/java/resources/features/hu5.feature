@@ -2,7 +2,7 @@ Feature: Cambiar plan de suscripción en la aplicación
   Como usuario que contrata o brinda el servicio de alquiler deseo poder cambiar mi plan de suscripción,
   para poder aprovechar al máximo los diferentes beneficios.
 
-  Scenario 1: Usuario que contrata un servicio de alquiler cambia de plan.
+  Scenario: Usuario que contrata un servicio de alquiler cambia de plan.
     Given El usuario se encuentra en la vista Home
     When El usuario selecciona el botón ver suscripción
     Then El sistema lo redirecciona a la vista Ver Suscripción
@@ -12,7 +12,7 @@ Feature: Cambiar plan de suscripción en la aplicación
     Then El sistema lo redirige a la vista Home
 
 
-  Scenario 2: Usuario que contrata un servicio de alquiler desiste su intención de cambiar de plan.
+  Scenario: Usuario que contrata un servicio de alquiler desiste su intención de cambiar de plan.
     Given El usuario se encuentra en la vista Home
     When El usuario selecciona el botón ver suscripción
     Then El sistema lo redirecciona a la vista Ver Suscripción
